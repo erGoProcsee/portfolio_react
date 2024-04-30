@@ -48,7 +48,9 @@ const About = () => {
       <motion.p variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px]
        max-w-3xl leading-[30px]">
-        prices
+        Recent Computer Science graduate, passionate
+        about continuous learning and professional growth in software
+        development.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
