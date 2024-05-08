@@ -21,9 +21,8 @@ const App = () => {
         </div>
         <div className="relative z-0">
           <About />
-          <Tech />
           <Experience />
-
+          <Tech />
           <Projects />
           <StarsCanvas />
         </div>

@@ -37,21 +37,26 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
-      icon: web,
+      title: "Excellent communication skills",
+      icon: creator,
     },
     {
-      title: "Cybersecurity focused",
-      icon: mobile,
+      title: "Web Developer",
+      icon: web,
     },
     {
       title: "Full stack developer",
       icon: backend,
     },
+    
     {
-      title: "Excellent communication skills",
-      icon: creator,
+      title: "Cybersecurity focused",
+      icon: mobile,
     },
+    // {
+    //   title: "Love of tech",
+    //   icon: mobile,
+    // },
   ];
   
   const technologies = [

@@ -8,13 +8,13 @@ const Hero = () => {
       <div className={`${styles.paddingX} absolute inset-0 top-[120px] 
       max-auto flex flex-row items-start gap-5`}>
         <div className="flex flex-col justify-center items-center met-5">
-          <div className="w-5 h-5 rounded-full bg-[#ff630f]" />
-          <div className="w-1 sm:h-60 h-40 orange-gradient" />
+          <div className="w-5 h-5 rounded-full bg-[#915EFF]" />
+          <div className="w-1 sm:h-60 h-40 violet-gradient" />
         </div>
         <div>
-          {/* <h1 className={`${styles.heroHeadText} text-white`}>Hello, my name is <span className="text-[#915eff]">Erin</span></h1> */}
-          <h1 className={`${styles.heroHeadText} text-white`}>Hello, my name is <span className="text-[#ff630f]">Ernesto</span></h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>I like to program digital brains.</p>
+          {/* <h1 className={`${styles.heroHeadText} text-white`}>Hello, my name is <span className="text-[#ff630f]">Erin</span></h1> */}
+          <h1 className={`${styles.heroHeadText} text-white text-shadow`}>Hello, my name is <span className="text-[#915eff] orange-text-gradient text-shadow">Ernesto</span></h1>
+          <p className={`${styles.heroSubText} mt-2 text-white-100`}>I love Tech!</p>
         </div>
       </div>
 
