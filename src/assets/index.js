@@ -25,6 +25,7 @@ import cplusplus from "./tech/cplusplus.png";
 
 import drink from "./company/drink.png";
 import target from "./company/target.png";
+import entertain_partners from "./company/ep.png";
 
 import greenwatch from "./greenwatch.png";
 import inventory from "./inventory.png";
@@ -55,6 +56,7 @@ export {
   threejs,
   drink,
   target,
+  entertain_partners,
   greenwatch,
   inventory,
 };

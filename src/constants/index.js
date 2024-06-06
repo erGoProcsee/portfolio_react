@@ -16,6 +16,7 @@ import {
     git,
     drink,
     target,
+    entertain_partners,
     greenwatch,
     inventory,
   } from "../assets";
@@ -107,6 +108,17 @@ import {
   ];
   
   const experiences = [
+    {
+      title: "Intern",
+      company_name: "Entertainment Partners",
+      icon: entertain_partners,
+      iconBg: "#E6DEDD",
+      date: "July 2024 - August 2024",
+      points: [
+        "now loading...",
+        
+      ],
+    },
     {
       title: "co-owner",
       company_name: "Pulque Express",
