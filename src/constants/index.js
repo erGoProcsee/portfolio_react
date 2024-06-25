@@ -109,12 +109,13 @@ import {
   
   const experiences = [
     {
-      title: "Intern",
+      title: "Service Desk Intern",
       company_name: "Entertainment Partners",
       icon: entertain_partners,
       iconBg: "#E6DEDD",
       date: "July 2024 - August 2024",
       points: [
+        "Worked as part of a team to help users troubleshoot software and hardware issues for large company.",
         "now loading...",
         
       ],
