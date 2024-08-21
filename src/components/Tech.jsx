@@ -11,11 +11,9 @@ const About = () => {
   return (
     <>
 
-      <motion.p variants={fadeIn("", "", 0.1, 1)} className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
-        developer with experience in Python, JavaScript, SQL, ChatGPT and others.
-      </motion.p>
 
-      <div className="mt-20 flex flex-wrap gap-10">
+
+      <div className="flex flex-wrap gap-10">
         {technologies.map((technologies, index) => (
           <div key={index} className="w-16 h-16">
             {/* Render the image directly */}
@@ -23,6 +21,11 @@ const About = () => {
           </div>
         ))}
       </div>
+
+      <motion.p variants={fadeIn("", "", 0.1, 1)} className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
+        Experience with: JavaScript, html, css, react.js, Python, mySQL, and others.
+      </motion.p>
+
     </>
     //   <div>About</div>
   );

@@ -29,6 +29,7 @@ import entertain_partners from "./company/ep.png";
 
 import greenwatch from "./greenwatch.png";
 import inventory from "./inventory.png";
+import inkborn from "./inkborn.png";
 
 export {
   logo,
@@ -59,4 +60,5 @@ export {
   entertain_partners,
   greenwatch,
   inventory,
+  inkborn,
 };

@@ -1,8 +1,6 @@
 // actual values
 
-// expanadable data repo for career stuff 
-
-
+// image files
 import {
     mobile,
     backend,
@@ -24,6 +22,7 @@ import {
     entertain_partners,
     greenwatch,
     inventory,
+    inkborn,
   } from "../assets";
   
   export const navLinks = [
@@ -156,43 +155,34 @@ import {
   
   const projects = [
     {
-      name: "Greenwatch",
+      name: "Inkborn (In progress)",
       description:
-        "Web-based platform using machine learning that allows users to get updates regarding their current lawn health.",
+        "E-commerce site for the Lorcana TCG.",
       tags: [
         {
-          name: "django",
-          color: "blue-text-gradient",
-        },
-        {
           name: "javascript",
-          color: "red-text-gradient",
+          color: "pink-text-gradient",
         },
         {
           name: "css",
-          color: "red-text-gradient",
+          color: "orange-text-gradient",
         },
         {
-          name: "python",
-          color: "green-text-gradient",
+          name: "react",
+          color: "blue-text-gradient",
         },
-        {
-          name: "postgresSQL",
-          color: "pink-text-gradient",
-        },
+        
       ],
-      image: greenwatch,
-      source_code_link: "https://github.com/COMP490-Greenwatch-Org/greenwatch",
+      image: inkborn,
+      source_code_link: "https://github.com/erGoProcsee/COMP440-projects",
+      project_link: "https://www.tcgplayer.com/",
     },
+
     {
       name: "Inventory Manager",
       description:
-        "Inventory management database for multiple users with a review system",
+        "Desktop app database for multiple users with a review system",
       tags: [
-        {
-          name: "chatGPT",
-          color: "blue-text-gradient",
-        },
         {
           name: "python",
           color: "green-text-gradient",
@@ -201,10 +191,49 @@ import {
           name: "mySQL",
           color: "pink-text-gradient",
         },
+        {
+          name: "chatGPT",
+          color: "blue-text-gradient",
+        },
       ],
       image: inventory,
       source_code_link: "https://github.com/erGoProcsee/COMP440-projects",
+      project_link: "https://www.youtube.com/watch?v=-rDM3dCH87E",
     },
+    
+    {
+      name: "Greenwatch",
+      description:
+        "Web-based platform using machine learning that allows users to get updates regarding their current lawn health.",
+      tags: [
+        
+        {
+          name: "javascript",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "css",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "python",
+          color: "green-text-gradient",
+        },
+        {
+          name: "postgresSQL",
+          color: "",
+        },
+        {
+          name: "django",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: greenwatch,
+      source_code_link: "https://github.com/COMP490-Greenwatch-Org/greenwatch",
+      project_link: "https://www.youtube.com/watch?v=q8THbULXqI4",
+    },
+    
+    
     
   ];
   
