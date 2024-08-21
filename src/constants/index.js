@@ -58,10 +58,7 @@ import {
       title: "Cybersecurity focused",
       icon: mobile,
     },
-    {
-      title: "Love of tech",
-      icon: mobile,
-    },
+    
   ];
   
   const technologies = [
