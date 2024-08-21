@@ -191,10 +191,7 @@ import {
           name: "mySQL",
           color: "pink-text-gradient",
         },
-        {
-          name: "chatGPT",
-          color: "blue-text-gradient",
-        },
+
       ],
       image: inventory,
       source_code_link: "https://github.com/erGoProcsee/COMP440-projects",
