@@ -1,3 +1,8 @@
+// actual values
+
+// expanadable data repo for career stuff 
+
+
 import {
     mobile,
     backend,
@@ -54,10 +59,10 @@ import {
       title: "Cybersecurity focused",
       icon: mobile,
     },
-    // {
-    //   title: "Love of tech",
-    //   icon: mobile,
-    // },
+    {
+      title: "Love of tech",
+      icon: mobile,
+    },
   ];
   
   const technologies = [
@@ -115,8 +120,8 @@ import {
       iconBg: "#E6DEDD",
       date: "July 2024 - August 2024",
       points: [
-        "Worked as part of a team to help users troubleshoot software and hardware issues for large company.",
-        "now loading...",
+        "Worked as part of a team to help users troubleshoot software and hardware issues in person and over the web.",
+        " Managed a global company’s tech stack and its nuances.",
         
       ],
     },

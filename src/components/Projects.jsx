@@ -33,6 +33,22 @@ const ProjectCard = ({
             className='w-full h-full object-cover rounded-2xl'
           />
 
+
+          {/* video link */}
+          <div className='absolute inset-0 flex justify-center items-center card-img_hover'>
+            <div
+              onClick={() => window.open(source_code_link, "_blank")}
+              className='black-gradient w-20 h-20 rounded-full flex justify-center items-center cursor-pointer'
+            >
+              <img
+                src={github}
+                alt='source code'
+                className='w-1/2 h-1/2 object-contain'
+              />
+            </div>
+          </div>
+
+          {/* source code link */}
           <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
             <div
               onClick={() => window.open(source_code_link, "_blank")}
@@ -45,6 +61,36 @@ const ProjectCard = ({
               />
             </div>
           </div>
+
+
+          {/* video link */}
+          {/* <div className='absolute inset-0 flex justify-center m-20 card-img_hover'>
+            <div
+              onClick={() => window.open(source_code_link, "_blank")}
+              className='black-gradient w-20 h-20 rounded-full flex justify-center items-center cursor-pointer'
+            >
+              <img
+                src={github}
+                alt='source code'
+                className='w-1/2 h-1/2 object-contain'
+              />
+            </div>
+          </div> */}
+
+          {/* source code link */}
+          {/* <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
+            <div
+              onClick={() => window.open(source_code_link, "_blank")}
+              className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+            >
+              <img
+                src={github}
+                alt='source code'
+                className='w-1/2 h-1/2 object-contain'
+              />
+            </div>
+          </div> */}
+
         </div>
 
         <div className='mt-5'>
